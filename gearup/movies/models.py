@@ -4,7 +4,7 @@ from django.db import models
 class Movies(models.Model):
     title = models.CharField(max_length=250)
     year = models.IntegerField()
-    genres = models.CharField(max_length=250)
+    genres = models.CharField(max_length=252)
     rating = models.DecimalField(decimal_places=1,max_digits=3)
 
 
